@@ -1,0 +1,44 @@
+.chats {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.chat {
+    height: 500px;
+}
+
+.group-rom {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eaebee;
+}
+
+.group-rom .first-part,
+.group-rom .second-part,
+.group-rom .third-part {
+    float: left;
+    padding: 15px;
+    background: #f7f8fa;
+    border-bottom: 2px solid #40cabe;
+}
+
+.group-rom .first-part {
+    width: 10%;
+}
+
+.group-rom .first-part.odd {
+    color: black;
+    font-weight: 600;
+}
+
+.group-rom .second-part {
+    width: 30%;
+    color: black;
+}
+
+.group-rom .third-part {
+    width: 60%;
+    color: black;
+}
